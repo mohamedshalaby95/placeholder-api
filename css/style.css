@@ -1,0 +1,55 @@
+
+
+.red h4{
+    color:red
+}
+.red .col-md-4{
+   background-color: white;
+}
+.yellow h4{
+    color:yellow;
+}
+.yellow .col-md-4{
+    background-color: white;
+ }
+.aqua h4{
+    color:aqua;
+}
+.aqua .col-md-4{
+    background-color: white;
+ }
+/* style choose colors end */
+.col-md-4{
+background-color: grey;
+border-bottom: 2px white solid;
+border-right:2px white solid ;
+}
+
+.colors .switch_color{
+    list-style: none;
+    text-align: center;
+   
+}
+.colors h3{
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-align: center;
+}
+.colors .switch_color li{
+    width: 25px;
+    height: 25px;
+   margin-top: 5px;
+   display: inline-block;
+  
+}
+.colors .switch_color li:first-child{
+    background-color: red;
+}
+.colors .switch_color li:nth-child(2){
+    background-color: aqua;
+}
+.colors .switch_color li:nth-child(3){
+    background-color: yellow;
+}
